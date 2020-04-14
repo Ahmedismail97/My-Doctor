@@ -1,0 +1,279 @@
+/* Start Framework */
+.container {
+
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* End Framework */
+
+/* Start main features*/
+
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 50px auto 0 auto;
+    color: #363062;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    color: #889eab;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+h3 {
+    color: #889eab;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+p {
+    line-height: 2;
+    color: #4c5e68;
+    font-family: 'Montserrat', sans-serif;
+}
+ a{
+    text-decoration: none;
+ }
+
+
+/* End main features*/
+
+
+
+
+/* Start Header */
+
+.header {
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background: url(../Images/three-person-looking-at-x-ray-result-1170979.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.header .overlay {
+    overflow: hidden;
+    background: rgba(155, 155, 155, 0.5);
+    height: 100vh;
+
+}
+
+
+.header .navbar {
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    background-color: #fff;
+    opacity: 0.8;
+    overflow: hidden;
+    padding-bottom: 20px;
+
+}
+
+.header .navbar .logo {
+    width: 150px;
+    height: 50px;
+    transition: 0.4s;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.header .navbar ul {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    margin-left: 100px;
+
+}
+
+.header .navbar ul li {
+    float: left;
+    padding-right: 20px;
+    margin-top: 20px;
+
+}
+
+.header .navbar ul li a {
+    color: #57A3FD;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 1.3rem;
+}
+
+.header .navbar a:hover {
+    color: #636464;
+}
+
+.header .intro  {
+    margin: 250px 0 100px 0;
+    opacity: 0.9;
+    border: solid;
+    border-radius: 2px;
+    border-width: 2px;
+    padding: 50px;
+}
+
+/* End Header */
+
+
+
+/* Start Who we are */
+
+#about .img {
+    width: 40%;
+    float: left;
+}
+
+#about .img img {
+    margin-top: 20px;
+    width: 100%;
+    height: 480px;
+}
+
+#about .info {
+    float: left;
+    width: 40%;
+    margin: 20px;
+
+}
+
+#about .info h2 {
+    float: left;
+    margin-left: 20px;
+}
+
+#about .info p {
+    float: left;
+    margin-left: 20px;
+}
+
+#about .ourservices {
+    width: 55%;
+    margin: 20px;
+    float: left;
+}
+
+#about .ourservices .ourtext {
+    float: left;
+    margin-left: 20px;
+
+}
+
+#about .ourservices .content {
+    float: left;
+    width: 50%;
+    min-height: 100px;
+}
+
+#about .ourservices .content .icon {
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #57A3FD;
+}
+
+#about .ourservices .content .text {
+    float: left;
+    width: 80%;
+}
+
+/* End Who we are */
+
+/* Start Our Specialties  */
+
+#boxes {
+    margin-top: 100px;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 45%;
+    padding: 2.5%;
+}
+
+#boxes .box img {
+    width: 100%;
+
+}
+
+#boxes button {
+    border: 2px solid #363062;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #363062;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 30px;
+}
+
+#boxes button:hover {
+    background: #363062;
+    color: white;
+
+}
+
+/* End Our Specialties  */
+
+
+
+/* Start Our Team  */
+
+#team {
+    margin: 50px;
+    display: flex;
+}
+
+#team .doctor {
+    float: left;
+    width: 20%;
+    padding: 2.5%;
+    margin-top: 30px;
+}
+
+#team .doctor img {
+    width: 100%;
+}
+
+/* End Our Team */
+
+
+/* Start Footer  */
+.footer{
+    background-color: #363062;
+    padding: 10px 0 10px;
+}
+
+.footer p{
+    color: #fff;
+}
+
+/* End Footer  */
